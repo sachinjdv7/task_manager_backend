@@ -1,5 +1,5 @@
 function dispplayName(name: String) {
-  console.log(`Welcome ${name}`);
+    console.log(`Welcome ${name}`)
 }
 
-dispplayName('sachin');
+dispplayName('sachin')
