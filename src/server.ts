@@ -1,4 +1,4 @@
-function dispplayName(name: String) {
+function dispplayName(name: string) {
     console.log(`Welcome ${name}`)
 }
 
