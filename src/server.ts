@@ -1,5 +1,3 @@
-function dispplayName(name: string) {
-    return name
-}
+import { Config } from './config'
 
-dispplayName('sachin')
+console.log(Config.PORT)
