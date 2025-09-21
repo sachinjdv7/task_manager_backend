@@ -1,12 +1,15 @@
 import express, { NextFunction, Request, Response } from 'express'
 import { HttpError } from 'http-errors'
 import logger from './config/logger'
+import { heathRoute } from './routes/health.route'
 
 const app = express()
 
 app.get('/', (req, res) => {
     res.send('Welcome to auth service')
 })
+
+app.use('/api/v1', heathRoute)
 
 // global error handling
 
